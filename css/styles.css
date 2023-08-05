@@ -169,7 +169,7 @@ button {
   width: calc((100% - 2 * 24px) / 3);
 }
 .portfolio-card-title {
-  margin-bottom: 8px;
+  padding-bottom: 8px;
   padding-top: 32px;
   padding-left: 16px;
   border-left: 1px solid var(--accent-hairlines-color);
@@ -178,16 +178,15 @@ button {
 .text {
   font-size: 16px;
   font-weight: 400;
-  padding-left: 16px;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
+}
+.portfolio-text {
+  padding-bottom: 32px;
+  padding-left: 16px;
   border-right: 1px solid var(--accent-hairlines-color);
   border-left: 1px solid var(--accent-hairlines-color);
   border-bottom: 1px solid var(--accent-hairlines-color);
-}
-
-.portfolio-text {
-  padding-bottom: 32px;
 }
 .footer {
   background-color: var(--background-dark-color);
@@ -273,6 +272,9 @@ button {
   background-color: var(--primary-white-color);
   padding-top: 120px;
   padding-bottom: 60px;
+}
+.benefits-title {
+  margin-bottom: 8px;
 }
 .background-team-section {
   background-color: var(--btn-bg-color);
